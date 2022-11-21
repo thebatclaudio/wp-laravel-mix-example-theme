@@ -5,7 +5,7 @@ class VueWidget extends WP_Widget
     function __construct()
     {
         parent::__construct('VueWidget', __('Vue Widget', 'laravel_mix_vue_widget_domain'), [
-            'description' => __('Sample Vue widget based on WPBeginner Tutorial', 'laravel_mix_vue_widget_domain')
+            'description' => __('Sample Vue widget', 'laravel_mix_vue_widget_domain')
         ]);
 
         wp_enqueue_script("vue-widget-counter", get_stylesheet_directory_uri() . "/compiled/js/counter.js", [], false, true);
