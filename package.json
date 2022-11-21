@@ -1,25 +1,30 @@
 {
   "name": "laravel-mix",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "Example WordPress theme where Laravel Mix is integrated.",
+  "main": "webpack.mix.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thebatclaudio/wp-laravel-mix-example-theme.git"
+  },
   "author": "",
   "license": "ISC",
-  "description": "",
+  "bugs": {
+    "url": "https://github.com/thebatclaudio/wp-laravel-mix-example-theme/issues"
+  },
+  "homepage": "https://github.com/thebatclaudio/wp-laravel-mix-example-theme#readme",
   "devDependencies": {
     "laravel-mix": "^6.0.49",
     "resolve-url-loader": "^5.0.0",
     "sass": "^1.56.1",
     "sass-loader": "^12.6.0",
-    "ts-loader": "^9.4.1",
-    "typescript": "^4.9.3",
-    "vue-loader": "^16.8.3"
+    "vue-loader": "^16.8.3",
+    "webpack-livereload-plugin": "^3.0.2"
   },
   "dependencies": {
-    "vue": "^3.2.45",
-    "webpack-livereload-plugin": "^3.0.2"
+    "vue": "^3.2.45"
   }
 }

@@ -46,7 +46,7 @@ class VueWidget extends WP_Widget
      */
     public function form($instance): void
     {
-        $title = $instance['title'] ?? __('New title', 'wpb_widget_domain');
+        $title = $instance['title'] ?? __('New title', 'laravel_mix_vue_widget_domain');
 
         // Widget admin form
         ?>
