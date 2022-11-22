@@ -1,8 +1,12 @@
+$logo-color: #cc00dd;
+
 .site-title {
   a {
+    color: $logo-color;
+
     &:hover {
       text-decoration: none;
-      color: blue;
+      letter-spacing: 0.1px;
     }
   }
 }
