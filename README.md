@@ -3,6 +3,8 @@ Example WordPress theme where Laravel Mix is integrated.
 
 Created for [GDG Palermo - Community Showcase November 2022](https://gdg.community.dev/events/details/google-gdg-palermo-presents-community-showcase-november-2022-part-2/)
 
+You can find slides [here](https://speakerdeck.com/thebatclaudio/wordpress-plus-laravel-mix)
+
 ## Getting started:
 
 1. Clone into an empty theme directory 
