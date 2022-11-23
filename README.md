@@ -11,4 +11,4 @@ Created for [GDG Palermo - Community Showcase November 2022](https://gdg.communi
 4. Run `npx mix`
 5. Enjoy your new WP theme!
 
-Note: this theme is a child of Twenty Twenty, so you must have it installed.
+Note: this theme is a child of (Twenty Twenty)[https://it.wordpress.org/themes/twentytwenty/], so you must have it installed.
